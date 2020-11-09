@@ -1,0 +1,383 @@
+                                                * {
+                                                    margin: 0;
+                                                    padding: 0;
+                                                    box-sizing: border-box;
+                                                }
+                                                
+                                                .container {
+                                                    max-width: 1140px;
+                                                    margin: 0 auto;
+                                                }
+                                                /* header  */
+                                                
+                                                header {
+                                                    padding: 5px 0;
+                                                    overflow: hidden;
+                                                }
+                                                /*logo*/
+                                                
+                                                .logo {
+                                                    width: 10%;
+                                                    height: 100px;
+                                                    float: left;
+                                                }
+                                                
+                                                .logo img {
+                                                    display: block;
+                                                    width: 100%;
+                                                    height: 100%
+                                                }
+                                                /*options*/
+                                                
+                                                nav {
+                                                    min-height: 50px;
+                                                    width: 68%;
+                                                    float: left;
+                                                    padding-top: 35px;
+                                                }
+                                                
+                                                nav ul {
+                                                    list-style: none;
+                                                }
+                                                
+                                                nav ul li {
+                                                    display: inline-block;
+                                                    margin-right: 30px 20px;
+                                                }
+                                                
+                                                nav ul li a {
+                                                    text-decoration: none;
+                                                    font-size: 25px;
+                                                    text-decoration: none;
+                                                    line-height: 25px;
+                                                    display: block;
+                                                    padding: 5px 10px;
+                                                    margin-left: 65px;
+                                                    transition: all 0.2s;
+                                                }
+                                                
+                                                nav ul li a:hover {
+                                                    font-weight: bold;
+                                                }
+                                                /*icons*/
+                                                
+                                                .social {
+                                                    width: 22%;
+                                                    float: left;
+                                                    /*padding-top: 20px;
+                                                    list-style: none;
+                                                    height: 50px; */
+                                                }
+                                                
+                                                .social ul {
+                                                    list-style: none;
+                                                }
+                                                
+                                                .social ul li {
+                                                    display: inline-block;
+                                                    margin: 10px 5px;
+                                                }
+                                                
+                                                .social ul li a {
+                                                    /*background-color: #e0e0b8;
+                                                    padding: 5px 7px;*/
+                                                    font-size: 20px;
+                                                    color: #051da3;
+                                                }
+                                                /*icon properties*/
+                                                
+                                                .fa-facebook-square {
+                                                    color: #1129af;
+                                                    border-radius: 0px;
+                                                }
+                                                
+                                                .fa-twitter-square {
+                                                    color: #2f9ef5;
+                                                }
+                                                
+                                                .fa-linkedin-square {
+                                                    color: #3b4fc1;
+                                                }
+                                                
+                                                .fa-google-plus-square {
+                                                    color: #aa1f18;
+                                                }
+                                                
+                                                .social ul li:last-child a span {
+                                                    font-size: 20px;
+                                                    font-weight: bold;
+                                                }
+                                                
+                                                .fa-sign-in {
+                                                    font-size: 16px;
+                                                    color: #071980
+                                                }
+                                                /*icon end*/
+                                                /* 2nd portion*/
+                                                
+                                                .second-portion {
+                                                    padding: 50px 0;
+                                                    background: url("../img/bgb.jpg");
+                                                    text-align: center;
+                                                    margin-bottom: 80px;
+                                                    background-repeat: no-repeat;
+                                                    background-size: cover;
+                                                }
+                                                
+                                                .sp {
+                                                    width: 400px;
+                                                    padding: 30px;
+                                                    background: linear-gradient(rgba(255, 255, 255, .6), rgba(255, 255, 255, .6));
+                                                    overflow: hidden;
+                                                    margin-left: 100px;
+                                                }
+                                                
+                                                .sp h1 {
+                                                    font-size: 30px;
+                                                    margin-bottom: 10px;
+                                                }
+                                                
+                                                .sp p {
+                                                    font-size: 18px;
+                                                    margin-bottom: 10px;
+                                                    padding: 10px;
+                                                }
+                                                
+                                                .btn {
+                                                    display: block;
+                                                    float: left;
+                                                    text-align: center;
+                                                    text-decoration: none;
+                                                    padding: 8px 5px;
+                                                    margin: 10px;
+                                                    background-color: #66C430;
+                                                    border-radius: 5px;
+                                                    color: #fff;
+                                                    transition: all 0.2s;
+                                                }
+                                                /*2nd end*/
+                                                /*3rd portion start*/
+                                                
+                                                .fa-check {
+                                                    text-align: center;
+                                                    height: 50px;
+                                                    width: 50px;
+                                                    color: white;
+                                                    border-radius: 50%;
+                                                    background-color: #5a6ed9;
+                                                    padding-top: 17px;
+                                                    margin-bottom: 10px;
+                                                }
+                                                
+                                                .fa-map-marker {
+                                                    height: 50px;
+                                                    width: 50px;
+                                                    color: white;
+                                                    border-radius: 50%;
+                                                    padding: 10px 20px;
+                                                    background-color: #13bfaf;
+                                                    padding-top: 17px;
+                                                    margin-bottom: 10px;
+                                                }
+                                                
+                                                .fa-money {
+                                                    height: 50px;
+                                                    width: 50px;
+                                                    color: white;
+                                                    border-radius: 50%;
+                                                    padding: 10px 20px;
+                                                    background-color: #297c2d;
+                                                    ;
+                                                    padding-top: 17px;
+                                                    margin-bottom: 10px;
+                                                }
+                                                
+                                                .fa-user-plus {
+                                                    height: 50px;
+                                                    width: 50px;
+                                                    color: white;
+                                                    border-radius: 50%;
+                                                    padding: 10px 20px;
+                                                    background-color: #9bef1c;
+                                                    padding-top: 17px;
+                                                    margin-bottom: 10px;
+                                                }
+                                                
+                                                .tp h3 {
+                                                    text-align: center;
+                                                    margin-bottom: 10px;
+                                                }
+                                                
+                                                .tp p {
+                                                    text-align: center;
+                                                    margin-bottom: 10px;
+                                                    padding: 30px
+                                                }
+                                                
+                                                .read {
+                                                    background-color: gold;
+                                                    color: white;
+                                                    display: block;
+                                                    text-decoration: none;
+                                                    border-radius: 5px;
+                                                    width: 90px;
+                                                    padding: 5px;
+                                                    border-radius: 5px;
+                                                    margin: 0 auto;
+                                                }
+                                                
+                                                .read:hover {
+                                                    background-color: greenyellow;
+                                                }
+                                                /*end 3rd portion*/
+                                                /*4th part box*/
+                                                
+                                                .forth-portion {
+                                                    overflow: hidden;
+                                                    margin-bottom: 30px;
+                                                }
+                                                
+                                                .container2 {
+                                                    width: 1140px;
+                                                    margin: 0 auto;
+                                                }
+                                                
+                                                .fp {
+                                                    width: 400px;
+                                                    float: left;
+                                                    background-color: #9abcc7;
+                                                    margin: 30px 5px 1px 110px;
+                                                    padding: 20px;
+                                                }
+                                                
+                                                h2 {
+                                                    text-align: center;
+                                                    margin: 10px 20px;
+                                                }
+                                                
+                                                .fp ul {
+                                                    list-style: none;
+                                                }
+                                                
+                                                .fp ul li img {
+                                                    height: 14px;
+                                                }
+                                                /*blog */
+                                                
+                                                .blog {
+                                                    margin-bottom: 30px;
+                                                    overflow: hidden;
+                                                }
+                                                
+                                                .bb {
+                                                    width: 45%;
+                                                    float: left;
+                                                    margin-right: 10%;
+                                                }
+                                                
+                                                .bb h3 {
+                                                    color: #aa1ccc;
+                                                    font-size: 25px;
+                                                    margin-bottom: 15px;
+                                                }
+                                                
+                                                .bb p {
+                                                    margin-bottom: 10px;
+                                                    font-size: 18px:
+                                                }
+                                                
+                                                .bb .read {
+                                                    margin: 0;
+                                                }
+                                                /*  blog end */
+                                                
+                                                .top-div,
+                                                .blogs {
+                                                    display: flex;
+                                                }
+                                                
+                                                .fa {
+                                                    margin-left: 40%;
+                                                }
+                                                
+                                                .blogs {
+                                                    margin: 0 auto;
+                                                    padding: 5%;
+                                                }
+                                                /*lent start*/
+                                                
+                                                .lent {
+                                                    background-color: lightgray;
+                                                    text-align: center;
+                                                    padding: 3%;
+                                                    position: relative;
+                                                }
+                                                
+                                                .overlay {
+                                                    position: absolute;
+                                                    background-color: black;
+                                                    color: white;
+                                                    right: 0;
+                                                    padding: .5%;
+                                                }
+                                                /*lent end*/
+                                                /*star start*/
+                                                
+                                                .trustpilotDiv {
+                                                    text-align: center;
+                                                    margin-bottom: 30px;
+                                                }
+                                                
+                                                .trustpilotDiv .fa-star {
+                                                    font-size: 42px;
+                                                    color: #00895d;
+                                                    margin: 0 auto;
+                                                }
+                                                
+                                                .fa-star-o {
+                                                    background-color: #78d910;
+                                                    color: #fff;
+                                                    font-size: 35px;
+                                                    padding: 5px;
+                                                    margin: 2px;
+                                                }
+                                                
+                                                .fa-star-o:last-child {
+                                                    background-color: #8e8e9a;
+                                                    /* margin-bottom: 10px;*/
+                                                }
+                                                /*star end*/
+                                                /*lendino start*/
+                                                
+                                                .lendino {
+                                                    overflow: hidden;
+                                                    text-align: center;
+                                                    background-color: #808080;
+                                                    padding: 30px 0;
+                                                    color: #fff;
+                                                }
+                                                
+                                                .lendino h2 {
+                                                    margin-bottom: 30px;
+                                                }
+                                                
+                                                .logos {
+                                                    margin: 0 36px;
+                                                    width: 13%;
+                                                    float: left;
+                                                }
+                                                /*lendino end*/
+                                                /*footer: lower part*/
+                                                
+                                                .foot {
+                                                    display: flex;
+                                                    justify-content: space-around;
+                                                    background-color: #1e193b;
+                                                    padding: 10px;
+                                                }
+                                                /*text of footer*/
+                                                
+                                                .foot1,
+                                                .foot2 {
+                                                    color: white;
+                                                }
